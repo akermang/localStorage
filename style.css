@@ -1,0 +1,21 @@
+main{
+
+}
+
+.item-list{
+  border-bottom: 1px solid #ccc;
+  line-height: 42px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-list img{
+  width: 35px;
+  height: 35px;
+}
+
+.item-list:hover{
+  cursor: pointer;
+  background: #cda;
+}
